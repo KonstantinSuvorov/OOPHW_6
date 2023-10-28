@@ -20,11 +20,6 @@ public class StudentGroup<T extends UserInterface> {
     private String groupName;
     private ArrayList<T> group;
 
-//    public StudentGroup(String groupName, ArrayList<T> group) {
-//        this.groupName = groupName;
-//        this.group = group;
-//    }
-
     public StudentGroup(String groupName) {
         this.groupName = groupName;
         this.group = new ArrayList<>();
